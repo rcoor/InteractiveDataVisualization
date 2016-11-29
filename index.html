@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <!--Styles-->
+    <!-- Bootstrap for easier styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi"
+        crossorigin="anonymous">
+    <!-- Custom styles -->
+    <link rel="stylesheet" type="text/css" href="./style.css"></link>
+
+    <!--Scripts-->
+    <script type="text/javascript">
+        /* A method for inserting a static image in the DOM */
+        function insert(){
+            /* Get element by its id */
+            var src = document.getElementById("image-container");
+            /* Create an image element */
+            var img = document.createElement("img");
+            /* Add a src attribute to the img element*/
+            img.src = "./images/stilts.jpg";
+            /* Append the element to the source (image container) */
+            src.appendChild(img);
+        }
+     </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row section">
+            <div class="col-md-12">
+                <h1>Interesting images</h1>
+            </div>
+            <div class="col-md-6">
+                <p> Small interesting picture</p>
+                <img src="images/dog.jpg" class="dog clearfix" alt="">
+                <div class="clearfix">
+                    <small>Added with a good old <i>img-tag.</i></small>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p>Small javascript inserted ( and also interesting ) image.</p>
+                <div id="image-container">
+
+                </div>
+                <small>Added by manipulating the DOM with javascript.</i></small>
+            </div>
+        </div>
+        <div class="row section">
+            <div class="col-md-12">
+                <h2>Online interactive visualizations</h2>
+            </div>
+            <div class="col-md-6">
+
+
+                <a class="clearfix" href="http://www.nytimes.com/interactive/2013/02/20/movies/among-the-oscar-contenders-a-host-of-connections.html?_r=0">Among the Oscar Contenders, a Host of Connections</a>
+                <small class="clearfix">A visualization showing actors connections to oscar nominated movies, for New York Times by Mike Bostock.</small>
+                <br>
+                <p><strong>Positive:</strong> this visualization has used a clever way of linking oscar nominated actors to
+                    movies that has recieved an oscar. Linking multiple data points together can be relatively complex. The
+                    author has put the actor in focus as big icons. It is clear that the actors are in focus. Having movies
+                    as connected nodes makes it possible to have multiple actors connected to the same node and in turn figuring
+                    out who have worked on the same movie.
+                </p>
+                <p><strong>Negative:</strong> before understand excactly what was going on I had to read a few boxes of text.
+                    There is a lot to take in.</p>
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <a class="clearfix" href="http://www.ucsusa.org/sites/default/files/images/2014/11/gw-graphic-pie-chart-co2-emissions-by-country-2011.jpg">Each Country's Share of CO2 Emissions</a>
+                <small class="clearfix">A diagram showing each countries percentage of CO2 emissions from energy consumption, by Union of Concerned Scientiests.</small>
+                <br>
+                <p><strong>Positive:</strong> a simple representation pie chart shows a division of different countries. There's
+                    a power strong popup effect as it is easy to see which slice is bigger than the other. It works well
+                    as the emphasis is on the size of emission.
+                </p>
+                <p><strong>Negative:</strong> there is an popout effect however this effect becomes smaller when you look at
+                    the countries with least emissions. It's hard to see a difference between countries that have below 2%.
+                    With the few amounts of countries representated it might have been better to show a simple bar chart,
+                    which would have made it easier to spot differences even in countries with low CO2 emissions. </p>
+                </p>
+            </div>
+        </div>
+        <div class="row section">
+            <div class="col-md-8">
+                <h1> What I want to build </h1>
+                <h2>Theis Jakobsen</h2>
+
+                <section>
+                    <p>
+                        <strong>Data: </strong> I have datafiles with 250.000 SNPs on 150 people. Some of these SNPs have
+                        been linked to 20 categories which have a certain phenotype in fitness, nutrition and lifestyle.
+                        Each category have a score that goes from 0 to 100. I would like to visualise, for each category
+                        and all categories combined, a comparison between one persons unique cateogory result and the mean
+                        of peoples result.
+                    </p>
+                </section>
+
+                <section>
+                    <p>
+                        <strong>Story: </strong> I want the visualisation to tell a story about the unique individual. Where
+                        are you compared to other people in this category and all categories combined. It should allow the
+                        person to dive into his own genetics and explore him-/herself.
+                    </p>
+                </section>
+
+                <section>
+                    <p>
+                        <strong>Audience: </strong> The audience is people who get a gene test who are interested in learning
+                        more about themself. It draws a unqiue image that is different from person to person.
+                    </p>
+                </section>
+
+                <section>
+                    <p>
+                        <strong>Sketch: </strong> One of the reasons that I have taken this course is to be inspired to help
+                        me find out what kind of visualisation I want to use on the describe data.
+                    </p>
+                    <object type="image/svg+xml" data="./distribution.svg">
+                     <!-- fallback here (<img> referencing a PNG version of the graphic, for example) -->
+                </object>
+                </section>
+
+
+            </div>
+            <div class="col-md-12">
+                <small class="clearfix">By Theis Jakobsen for the course Interactive Data Exploration, 2016.</small>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    /* Insert the image in the its container */
+   insert();
+</script>
+
+</html>

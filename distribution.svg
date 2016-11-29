@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 426.3 367.3" style="enable-background:new 0 0 426.3 367.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st2{fill:#010101;}
+	.st3{fill:none;stroke:#010101;stroke-width:0.25;stroke-miterlimit:10;}
+	.st4{fill:none;}
+	.st5{font-family:'MyriadPro-Bold';}
+	.st6{font-size:12px;}
+	.st7{font-family:'MyriadPro-Regular';}
+	.st8{font-size:18px;}
+</style>
+<line class="st0" x1="126.8" y1="137.3" x2="126.8" y2="328.9"/>
+<line class="st0" x1="315.8" y1="328.3" x2="126.8" y2="328.3"/>
+<path class="st1" d="M126.8,328.9c0,0,88.2-301.6,184.1,0"/>
+<circle cx="263.9" cy="223.9" r="5.2"/>
+<g>
+	<polygon class="st2" points="276.2,215.4 269.9,216.8 270.4,210.4 	"/>
+	<path class="st3" d="M271.7,214.7l9.9-11.6L271.7,214.7z"/>
+</g>
+<rect x="263.9" y="149.4" class="st4" width="162.4" height="53.2"/>
+<text transform="matrix(1 0 0 1 263.9329 157.8849)"><tspan x="0" y="0" class="st5 st6">Score</tspan><tspan x="0" y="14.4" class="st7 st6">The score describes where you </tspan><tspan x="0" y="28.8" class="st7 st6">are compared to all users</tspan></text>
+<text transform="matrix(1 0 0 1 203.1706 357.5107)" class="st5 st6">Score</text>
+<text transform="matrix(1 0 0 1 296.551 341.7798)" class="st7 st6">max</text>
+<text transform="matrix(1 0 0 1 126.8347 341.7799)" class="st7 st6">min</text>
+<rect x="20.3" y="194.9" class="st4" width="89.2" height="123.8"/>
+<text transform="matrix(1 0 0 1 20.3126 203.3762)"><tspan x="0" y="0" class="st5 st6">Count</tspan><tspan x="0" y="14.4" class="st7 st6">Counts of people </tspan><tspan x="0" y="28.8" class="st7 st6">falling into bins </tspan><tspan x="0" y="43.2" class="st7 st6">divided between </tspan><tspan x="0" y="57.6" class="st7 st6">a miniumum an a </tspan><tspan x="0" y="72" class="st7 st6">maximum score</tspan></text>
+<rect x="20.3" y="64.3" class="st4" width="182.9" height="65.7"/>
+<text transform="matrix(1 0 0 1 20.3121 72.8464)"><tspan x="0" y="0" class="st5 st6">Distribution</tspan><tspan x="0" y="14.4" class="st7 st6">A distribution chart showing the </tspan><tspan x="0" y="28.8" class="st7 st6">distribution of peoples score in for a </tspan><tspan x="0" y="43.2" class="st7 st6">certain category.</tspan></text>
+<text transform="matrix(1 0 0 1 20.3122 35.2656)" class="st5 st8">Caffine sensitivity</text>
+</svg>
